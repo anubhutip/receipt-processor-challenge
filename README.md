@@ -6,9 +6,9 @@ A Spring Boot application designed to process receipts and calculate reward poin
 
 ## Features
 
-Submit Receipts: Accepts receipt details via a REST API.
+**Submit Receipts**: Accepts receipt details via a REST API.
 
-Calculate Points: Computes reward points based on:
+**Calculate Points**: Computes reward points based on:
 
 - Retailer name.
 
@@ -18,7 +18,7 @@ Calculate Points: Computes reward points based on:
 
 - Purchase date and time.
 
-Retrieve Points: Fetch the calculated points for a processed receipt.
+**Retrieve Points**: Fetch the calculated points for a processed receipt.
 
 
 
@@ -132,7 +132,7 @@ Access the API at http://localhost:8080.
 - **Unit Tests**: Tests business logic using JUnit and Mockito.
 - **Error Handling Tests**: Ensures proper handling of invalid receipts and missing data.
 - **To run all tests**: 
-```json
+```bash
 mvn test
 ```
 
